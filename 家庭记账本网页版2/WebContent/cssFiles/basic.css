@@ -1,0 +1,83 @@
+.MessageDIV
+{
+	 width:280px;
+	 height:270px;	
+}
+.MessageDIV2
+{
+	 margin-top:5px;
+	 margin-bottom:5px;
+	 margin-left:10px;
+	 margin-right:10px;
+	 width:260px;
+	 height:260px;
+	 border:2px soild gray;
+	 border-radius:10px;
+	 background:#FFDAB9;
+}
+.MessageDIV3
+{
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;	
+}
+.TitleSpan
+{
+	float:left;
+	margin-left:10px;	
+}
+.Main_B
+{
+	font-size:150%;
+}
+.Message_Button_DIV
+{
+	float:right;
+	margin-right:15px;
+}
+.Message_Button
+{
+	border:2px soild black;
+	color:#4169E1;
+}
+.Message_Inner_Span
+{
+	color:rgb(255,109,109);
+	float:right;
+	margin-right:20px;	
+}
+.Span_Add_Member
+{
+	color:#3CB371;
+	float:right;
+	margin-right:20px;
+}
+.Tran_Under_Title
+{
+	margin-left:20px;
+	color:gray;
+}
+.MeoryTable
+{
+	margin-left:30px;
+	margin-right:30px;
+}
+.Green_Span
+{
+	color:#3CB371;
+}
+.MeoryInput
+{
+	border:2px soild black;
+	width:250px;
+}
+.BasicTh
+{
+	text-align:center;
+}
+.BasicTd
+{
+	border:1px soild black;
+	text-align:center;
+}

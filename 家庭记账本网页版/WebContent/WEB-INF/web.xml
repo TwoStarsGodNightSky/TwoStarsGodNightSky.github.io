@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <!-- ******************************************************** -->
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BaseServlet</servlet-name>
+    <servlet-class>servlet.BaseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BaseServlet</servlet-name>
+    <url-pattern>/servlet/BaseServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- ******************************************************** -->
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMembersServlet</servlet-name>
+    <servlet-class>servlet.member.AddMembersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddMembersServlet</servlet-name>
+    <url-pattern>/servlet/member/AddMembersServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- .................. -->
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllMembersServlet</servlet-name>
+    <servlet-class>servlet.member.AllMembersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AllMembersServlet</servlet-name>
+    <url-pattern>/servlet/member/AllMembersServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- .................. -->
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FrozeMembersCodeServlet</servlet-name>
+    <servlet-class>servlet.member.FrozeMembersCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FrozeMembersCodeServlet</servlet-name>
+    <url-pattern>/servlet/member/FrozeMembersCodeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- .................. -->
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeMembersCodeServlet</servlet-name>
+    <servlet-class>servlet.member.ChangeMembersCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangeMembersCodeServlet</servlet-name>
+    <url-pattern>/servlet/member/ChangeMembersCodeServlet</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeMembersServlet</servlet-name>
+    <servlet-class>servlet.member.ChangeMembersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangeMembersServlet</servlet-name>
+    <url-pattern>/servlet/member/ChangeMembersServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- .................. -->
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMembersCodeServlet</servlet-name>
+    <servlet-class>servlet.member.DeleteMembersCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteMembersCodeServlet</servlet-name>
+    <url-pattern>/servlet/member/DeleteMembersCodeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMembersServlet</servlet-name>
+    <servlet-class>servlet.member.DeleteMembersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteMembersServlet</servlet-name>
+    <url-pattern>/servlet/member/DeleteMembersServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- .................. -->
+  
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReferMembersCodeServlet</servlet-name>
+    <servlet-class>servlet.member.ReferMembersCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReferMembersCodeServlet</servlet-name>
+    <url-pattern>/servlet/member/ReferMembersCodeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReferMembersServlet</servlet-name>
+    <servlet-class>servlet.member.ReferMembersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReferMembersServlet</servlet-name>
+    <url-pattern>/servlet/member/ReferMembersServlet</url-pattern>
+  </servlet-mapping>
+  
+  	<!-- ******************************************************** -->
+ 
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAccountsServlet</servlet-name>
+    <servlet-class>servlet.account.AddAccountsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddAccountsServlet</servlet-name>
+    <url-pattern>/servlet/account/AddAccountsServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllAccountsServlet</servlet-name>
+    <servlet-class>servlet.account.AllAccountsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AllAccountsServlet</servlet-name>
+    <url-pattern>/servlet/account/AllAccountsServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelfAccountsServlet</servlet-name>
+    <servlet-class>servlet.account.SelfAccountsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelfAccountsServlet</servlet-name>
+    <url-pattern>/servlet/account/SelfAccountsServlet</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeAccountsServlet</servlet-name>
+    <servlet-class>servlet.account.ChangeAccountsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangeAccountsServlet</servlet-name>
+    <url-pattern>/servlet/account/ChangeAccountsServlet</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteAccountsServlet</servlet-name>
+    <servlet-class>servlet.account.DeleteAccountsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteAccountsServlet</servlet-name>
+    <url-pattern>/servlet/account/DeleteAccountsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CleanAllAccountsServlet</servlet-name>
+    <servlet-class>servlet.account.CleanAllAccountsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CleanAllAccountsServlet</servlet-name>
+    <url-pattern>/servlet/account/CleanAllAccountsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReferAccountsServlet</servlet-name>
+    <servlet-class>servlet.account.ReferAccountsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReferAccountsServlet</servlet-name>
+    <url-pattern>/servlet/account/ReferAccountsServlet</url-pattern>
+  </servlet-mapping>
+  
+ 
+ 	<!-- ******************************************************** -->
+ 
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReferLoginCodeServlet</servlet-name>
+    <servlet-class>servlet.basic.ReferLoginCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReferLoginCodeServlet</servlet-name>
+    <url-pattern>/servlet/basic/ReferLoginCodeServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReferBackGroundImageServlet</servlet-name>
+    <servlet-class>servlet.basic.ReferBackGroundImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReferBackGroundImageServlet</servlet-name>
+    <url-pattern>/servlet/basic/ReferBackGroundImageServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReferIsRememberServlet</servlet-name>
+    <servlet-class>servlet.basic.ReferIsRememberServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReferIsRememberServlet</servlet-name>
+    <url-pattern>/servlet/basic/ReferIsRememberServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeIsRememberServlet</servlet-name>
+    <servlet-class>servlet.basic.ChangeIsRememberServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangeIsRememberServlet</servlet-name>
+    <url-pattern>/servlet/basic/ChangeIsRememberServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeLoginCodeServlet</servlet-name>
+    <servlet-class>servlet.basic.ChangeLoginCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangeLoginCodeServlet</servlet-name>
+    <url-pattern>/servlet/basic/ChangeLoginCodeServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeBackGroundImageServlet</servlet-name>
+    <servlet-class>servlet.basic.ChangeBackGroundImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangeBackGroundImageServlet</servlet-name>
+    <url-pattern>/servlet/basic/ChangeBackGroundImageServlet</url-pattern>
+  </servlet-mapping>
+ 
+ 	<!-- ******************************************************** -->
+ 
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,173 @@
+.welcomeB 
+{
+	color: yellow;
+	font-size: 400%;	
+}
+.Kort
+{
+	color:#B0C4DE;
+	font-size: 200%;
+}
+.Kort2
+{
+	color:#8A2BE2;
+	font-size: 200%;
+}
+.Kort3
+{
+	color:#B0C4DE;
+	font-size: 200%;
+	float:right;	
+}
+.basicInput
+{
+	font-size: 200%;
+	color: #F0F8FF;
+	background:none;
+	width: 200px;
+	border-radius: 5px;
+	border: 1px #87CEEB solid;
+}
+.basicButton
+{
+	padding: 10px 20px;
+	border-radius: 5px;
+	background:none;
+	border: 2px  #87CEEB solid;
+	color: #87CEFA;
+	font-size: 150%;
+}
+.basicButton2
+{
+	padding: 10px 20px;
+	border-radius: 5px;
+	background:none;
+	border: 2px  #9370DB solid;
+	color: #9370DB;
+	font-size: 150%;
+}
+.basicButton3
+{
+	padding: 10px 20px;
+	border-radius: 5px;
+	background:none;
+	border: 2px  #D3D3D3 solid;
+	color: #D3D3D3;
+	font-size: 150%;
+}
+.TableButton
+{
+	color: #AFEEEE;
+	background:none;
+	font-size: 80%;
+}
+.TableButton2
+{
+	color: #FFD700;
+	background:none;
+	font-size: 80%;
+}
+.TableButton3
+{
+	color: #FFE4E1;
+	background:none;
+	font-size: 80%;
+}
+.modernTable
+{
+	font-size: 200%;
+	background:none;
+	border: 2px  #00FF00 solid;
+}
+.mordernThr
+{
+	color: #32CD32;
+}
+.mordernThr2
+{
+	color: #32CD32;
+	border: 1px  #87CEFA solid;
+}
+.mordernTdr
+{
+	color: #87CEFA;
+}
+.mordernTdr2
+{
+	color: #87CEFA;
+	border: 1px  #87CEFA solid;
+}
+.mordernBasic
+{
+	border: 1px  #87CEFA solid;
+}
+.mordernBasic2
+{
+	border: 1px  #87CEFA solid;
+	color: #FFC0CB;
+	font-size: 80%;
+}
+.mordernBasic3
+{
+	border: 1px  #87CEFA solid;
+	color: #EEE8AA;
+}
+.mordernBasic4
+{
+	border: 1px  #87CEFA solid;
+	color: red;
+}
+.mordernBasic5
+{
+	border: 1px  #87CEFA solid;
+	color: #FFDAB9;
+	font-size: 80%;
+}
+.mordernBasic6
+{
+	border: 1px  #87CEFA solid;
+	color: #F0F8FF;
+}
+.mordernBasic7
+{
+	border: 1px  #87CEFA solid;
+	color: #FFF0F5;
+}
+.mordernBasic8
+{
+	border: 1px  #87CEFA solid;
+	color: #AFEEEE;
+}
+.mordernBasic9
+{
+	border: 1px  #87CEFA solid;
+	color: #FFA07A;
+}
+.mordernText
+{
+	font-size: 150%;
+	color: #E6E6FA;
+}
+.mordernInput
+{
+	color:#E6E6FA;
+	width: 26px;
+	font-size: 150%;
+	border: 1px  #E6E6FA solid;
+	background:none;
+}
+.mordernInput3
+{
+	color:#E6E6FA;
+	width: 100px;
+	font-size: 150%;
+	border: 1px  #E6E6FA solid;
+	background:none;
+}
+.mordernInput2
+{
+	color:#E6E6FA;
+	width: 26px;
+	font-size: 150%;
+	background:none;
+}
