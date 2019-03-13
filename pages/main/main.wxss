@@ -1,0 +1,117 @@
+/* 表格 */
+.table {
+  border: 0px solid darkgray;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.bg-w{
+  background: snow;
+}
+.bg-g{
+  background: #E6F3F9;
+}
+.th {
+  width: 40%;
+  justify-content: center;
+  background: #3366FF;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+/* pages/TabBar/TabBar.wxss */
+/* 1. 选项卡 */  
+.swiper-tab {  
+  width: 100%;  /* 选项卡所占宽度 */  
+  border-bottom: 2rpx solid #777;  /* 设置选项卡下边框的样式 */  
+  text-align: center;              /* 设置选项卡字体的显示   */  
+  line-height: 80rpx;              /* 设置选项卡所占的告诉   */
+}
+/* 1.1. 选项卡中的子选项 */  
+.swiper-tab-list {  
+  font-size: 38rpx;         /* 设置选项卡字体的大小   */  
+  display: inline-block;    /* 行内块元素。（CSS2.1 新增的值） */  
+  width: 25%;               /* 每个子选项所占的宽度 */  
+  color: #777;              /* 字体的颜色 */    
+}
+/* 1.2. 子选项被选中时的样式 */
+.on {  
+  color: #3385ff;                        /* 选中时字体的颜色 */      
+  border-bottom: 5rpx solid #3385ff;     /* 选中时选项卡下边框的样式 */    
+}
+/* 2.选项卡下方的内容 */  
+.swiper-box{    
+  position: absolute;   /* 使用绝对定位 */    
+  top: 10;              /* 距离上边距：0px */  
+  left: 40px;           /* 距离左边距：80px */  
+  width: 75%;           /* 右侧主盒子所占宽度 */  
+  height: 600px;        /* 右侧主盒子所占高度 */  
+  padding: 10px;        /* 所有 4 个内边距都是 10px*/ 
+  box-sizing: border-box;  /* 为元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制*/
+}
+/* 2.1. 选项卡下方的内容的每个item */  
+.swiper-box 
+.swiper-box_items{    
+  float: left;          /* 浮动向左 */    
+  width: 33.33%;        /* 每个item设置宽度是33.33% */    
+  height: 120px;        /* 每个item设置高度是120px */   
+  text-align: center;   /* 设置图片下方的提示文字居中显示 */
+}  
+/* 2.2. 选项卡下方的内容的每个图片样式设置 */  
+.swiper-box 
+.swiper-box_items image{    
+  width: 60px;         /* 给图片设置宽度 */    
+  height: 60px;        /* 给图片设置高度 */   
+  margin-top: 15px;    /* 图片距离上边距15px */    
+  border-radius: 40%;  /* 给图片添加圆角边框 */
+}
+input{
+  background-color:aquamarine;
+  margin-top:10px;
+  margin-bottom:15px;
+  font-size:125%;
+  width:100%;
+  height:30px;
+}
+.buttonA{
+  width:100px;
+  margin-top:60px;
+}
+.buttonD{
+  width:25%;
+  margin-top:40px;
+  font-size:80%;
+  height:5%;
+}
+.buttonB{
+  width:100px;
+  margin-top:20px;
+}
+.buttonC{
+  width:100px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.ViewTextD{
+  margin-top:30px;
+}
+.ViewTextE{
+  margin-bottom:10px;
+  color:blue;
+}
+.ViewTextF{
+  margin-top:150px;
+}
+.BasicLabel{
+  margin-right:10px;
+}

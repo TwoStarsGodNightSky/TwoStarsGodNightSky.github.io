@@ -1,0 +1,15 @@
+<view class="TextA">
+  <view>
+    <text>请选择支付方式：</text>
+    <radio-group>
+      <label style="color:blue;" bindtap="PopZhiFuBao">
+        <radio id='pay1' value="zhifubao" checked />支付宝
+      </label> 
+      <label style="color:green;" bindtap="PopWeiXin">
+        <radio id='pay2' value="weixin" />微信支付
+      </label>
+    </radio-group>
+    <image id='imageForPay' src="{{imagesrc}}" style="margin-top:10px;" class="ImageA" mode='widthFix' />
+  </view>
+  <button class="ButtonA" bindtap='backToMain'>返回</button>
+</view>

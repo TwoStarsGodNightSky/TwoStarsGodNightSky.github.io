@@ -1,0 +1,19 @@
+<view>
+  <view>
+    <image src="../../images/user.png" class="ImageA" mode='widthFix' />
+    <navigator url="login"><!-- 内部url，用于链接 -->
+    </navigator>
+  </view>
+  <view class="ViewMort">
+    <view class="ViewTextC">
+      用户名:
+    </view>
+    <input maxlength="8" name="username" id="username" value="Manager" disabled="disabled" type="text" placeholder="Username" class="InputA"/>
+    <view class="ViewTextC">
+      密码:
+    </view>
+    <input maxlength="8" name="password" id="password" value="" type="password" placeholder="Password" class="InputA" bindinput="passWdInput"/>
+    <checkbox class="CheckBox" disabled="disabled" checked="true">记住我</checkbox>
+    <button id="Login" class="ButtonA" bindtap='ToLogin'>登录</button>
+  </view>
+</view>
